@@ -1,4 +1,4 @@
-# How to install php7.1-fpm with EasyEngine
+# How to install php7.1-fpm with NGINX
 --------
 ### Install php7.1-fpm
 ```
