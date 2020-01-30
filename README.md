@@ -12,7 +12,7 @@ cp -f /etc/php/7.0/fpm/pool.d/www.conf /etc/php/7.1/fpm/pool.d/www.conf
 
 **Edit the listening port of php7.1-fpm (for example 7080 instead of 7070)**
 ```
-nano /etc/php/7.1/fpm/pool.d/www.conf
+vim /etc/php/7.1/fpm/pool.d/www.conf
 ```
 Replace the line `listen = 127.0.0.1:9070` by `listen = 127.0.0.1:9080`<br>
 Restart the service
